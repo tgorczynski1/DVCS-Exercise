@@ -43,6 +43,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,11 +54,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Entities\Category.cs" />
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\C__RefactorLog.cs" />
+    <Compile Include="Entities\Delivery.cs" />
+    <Compile Include="Entities\GroceryList.cs" />
+    <Compile Include="Entities\Order.cs" />
+    <Compile Include="Entities\OrderList.cs" />
+    <Compile Include="Entities\Picker.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\Store.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DTOS\" />
-    <Folder Include="Entities\" />
     <Folder Include="POCOS\" />
   </ItemGroup>
   <ItemGroup>
